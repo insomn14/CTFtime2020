@@ -1,0 +1,7 @@
+Chall0-Level1 : eat-chicken-not-cows
+Chall1-Level2 : chrispy-or-breaded
+Chall2-Level3 : which-came-first-the-chicken-or-the-bawk
+Chall3-Level4 : wut-those-werent-chickens
+Chall4-Level5 : is-the-sky-falling?
+Chall5-Level6 : i-was-right-all-along-it-was-falling
+Chall6-Level7 : bawk

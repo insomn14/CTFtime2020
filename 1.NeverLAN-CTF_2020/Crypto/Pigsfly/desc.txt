@@ -1,0 +1,4 @@
+Pigsfly
+30
+Crypto Easy
+Your flag will be in the normal flag{flagGoesHere} syntax.
