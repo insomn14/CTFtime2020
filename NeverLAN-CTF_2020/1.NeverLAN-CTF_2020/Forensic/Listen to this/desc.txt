@@ -1,0 +1,10 @@
+Listen to this
+125
+Forensics Medium
+You hear that?
+
+*Your flag will be in the normal flag{flagGoesHere] syntax
+
+-ps This guy might be important
+
+-ZestyFE

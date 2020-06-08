@@ -1,0 +1,6 @@
+
+>>> data = open('encrypted_db', 'r').read().replace('\n','')
+>>> base = b64decode(data.decode('hex'))
+>>> out = open('decrypt_txt','w')
+>>> out.write(base)
+

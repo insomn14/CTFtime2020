@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Awesome Website</title>
+		<link rel="stylesheet" href="css/bulma.min.css"/>
+		<link rel="stylesheet" href="css/main.css"/>
+	</head>	
+	<body>
+		<nav class="navbar" role="navigation" aria-label="main navigation">
+			<div class="navbar-brand">
+				<a class="navbar-item" href="/">
+					<img src="https://cdn.neverlanctf.com/Logo-dark.png" alt="My Site"/>
+				</a>
+				<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+				</a>
+			</div>
+		</nav>
+		<main>
+			<section class="section">
+				<div class="container">
+					<h1 class="title">My Awesome Website</h1>
+					<h2 class="subtitle">
+						Please Login <a href='login.php'>Here</a>					</h2>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="content has-text-centered">
+				<p>
+					<strong>My Awesome Website</strong> by <a href="https://neverlanctf.com">Some Cool People</a>
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>
