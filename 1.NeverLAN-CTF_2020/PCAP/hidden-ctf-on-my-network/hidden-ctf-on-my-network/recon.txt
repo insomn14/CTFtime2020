@@ -1,9 +1,0 @@
-1. open file .pcapng with wireshark
-2. look Protocol DHCP with Ctrl+Alt+Shift+U
-
-.....g..........
-*.h
-*.......e..D...........................................................................netboot.xyz.kpxe................................................................................................................c.Sc5..6.
-*..3.............
-*....
-*....localdomain.6flag{who-actually-looks-at-dhcp-server-traffic-anyway}.

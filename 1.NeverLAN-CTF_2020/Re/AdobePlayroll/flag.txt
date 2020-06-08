@@ -1,1 +1,0 @@
-flag{.net_is_pretty_easy_to_decompile}

@@ -1,1 +1,0 @@
-user=admin&pass=flag%7Bn0httpsn0l0gin%7D

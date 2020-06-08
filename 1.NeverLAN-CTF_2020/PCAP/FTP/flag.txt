@@ -1,1 +1,0 @@
-flag{sftp_OR_ftps_not_ftp}

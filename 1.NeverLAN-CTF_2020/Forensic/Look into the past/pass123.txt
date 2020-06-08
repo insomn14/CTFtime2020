@@ -1,5 +1,0 @@
-pass1 = JXrTLzijLb
-pass2 = KI6VWx09JJ
-pass3 = nBNfDKbP5n
-
-JXrTLzijLbKI6VWx09JJnBNfDKbP5n
