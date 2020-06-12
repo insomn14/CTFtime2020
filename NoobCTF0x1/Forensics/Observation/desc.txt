@@ -1,0 +1,7 @@
+Observation
+200
+Prove your observation skills to get your flag. May The SOURCE Be With You. :)
+
+Link: https://github.com/AdityaSec/NoobCTF-0x1/tree/master/Forensics/Observation
+
+Author: D3v1LaL

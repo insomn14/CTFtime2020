@@ -1,0 +1,11 @@
+Pass my way
+350
+Dynus loves new research, he just learnt Docker and want to access it over SSH. But he found a crack in this. Can you find it.
+
+He has one Overview of Scenerio here: https://blog.vanisco.in/how-to-ssh-from-public-ip-to-docker-container
+
+Can you find the flag??
+
+Credentials: Username: chall Password: chall@123 IP: 139.59.19.132
+
+Author: vanisco

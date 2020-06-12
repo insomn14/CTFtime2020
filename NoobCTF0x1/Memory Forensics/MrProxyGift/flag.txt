@@ -1,0 +1,1 @@
+Good Luck for Memory Forensic Challenge. Start with this flag: noob{Welcome_To_Memory_Forensic}

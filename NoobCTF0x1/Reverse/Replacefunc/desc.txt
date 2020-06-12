@@ -1,0 +1,5 @@
+Replacefunc
+200
+Crack and redirect your way to the top of the hill Link: https://github.com/AdityaSec/NoobCTF-0x1/tree/master/Reversing/replacefunc
+
+Author : 'Elemental X'

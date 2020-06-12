@@ -1,0 +1,7 @@
+It's easy
+50
+It's just an image
+
+Link: https://github.com/AdityaSec/NoobCTF-0x1/tree/master/Forensics/It's easy
+
+Author: Cryptonic007

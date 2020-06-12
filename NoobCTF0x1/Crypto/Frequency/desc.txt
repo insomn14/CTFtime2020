@@ -1,0 +1,7 @@
+Frequency
+250
+Elliot captured something, while noob called his friend
+
+Flag format: noob{FLAG}
+
+Author: D3v1LaL

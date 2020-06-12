@@ -1,0 +1,5 @@
+Stringcrack
+150
+The String is all you have
+
+Author: ElementalX

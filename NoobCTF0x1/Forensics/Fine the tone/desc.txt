@@ -1,0 +1,7 @@
+Fine the tone
+250
+James bond tried to find the tone. But, he tired now. Can you help me?
+
+NOTE: Flag format noob{ALLCAPITAL}
+
+Author: Cryptonic007

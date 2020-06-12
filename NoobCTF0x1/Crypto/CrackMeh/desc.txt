@@ -1,0 +1,5 @@
+3lli0t found a diary from Evil Corp. He have to get into the system, but can't as he have a hash of a password and no plaintext. Help him to get into system.
+
+flag format: noob{plaintext}
+
+hash: 4ee805f9397a1d584ef9be9d2a4f8f20

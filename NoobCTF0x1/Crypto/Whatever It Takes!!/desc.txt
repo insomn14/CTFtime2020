@@ -1,0 +1,7 @@
+Whatever It Takes!!
+200
+Some basic common ciphers can be your soulmates sometime
+
+File Link: https://github.com/AdityaSec/NoobCTF-0x1/tree/master/Crypto/WhatEverItTakes
+
+Author: Th3_D3v1n3r

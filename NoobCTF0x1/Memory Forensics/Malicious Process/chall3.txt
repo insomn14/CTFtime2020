@@ -1,0 +1,5 @@
+Yesterday I opened task manager to check my RAM usage. But when I moved to process tab, it looks like a malicious process is running. Help me to find the name of that process so that I can remove it.
+
+`flag:` noob{name.exe}
+
+Points: 80

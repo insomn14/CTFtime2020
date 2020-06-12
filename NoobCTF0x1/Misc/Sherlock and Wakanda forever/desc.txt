@@ -1,0 +1,13 @@
+Sherlock and Wakanda forever
+500
+We all saw that 'CTFs are Terrible' video by LiveOverFlow, So in this challenge and many others we tried to making things as close to real world as we can.
+
+This challenge will help you improve your bash/python scripting knowledge.
+
+There are some rabbit holes. Be-aware. Resources that might come in handy: man awk,man ls,man grep,man while,man for,man python3 [pun was intented.]
+
+Link: https://drive.google.com/drive/folders/1pE_Wya3bP7IkVquvC7GOkYD4yCx5Bhno?usp=sharing
+
+Author: Mr.Holmes
+
+

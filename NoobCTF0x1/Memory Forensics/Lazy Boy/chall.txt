@@ -1,0 +1,1 @@
+Mr.Proxy keeps all of his passwords in a encrypted text file. Whenever password is required anywhere he just open his password file and copy password from there and paste it in the required place. Can you help me to get his password?

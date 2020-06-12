@@ -1,0 +1,7 @@
+Gross
+120
+Cipher: OQWKWPUVMYTIUSSTHHPI
+
+Keep this: 12345 , will help you. Flag format: noob{FLAG}
+
+Author: D3v1LaL
