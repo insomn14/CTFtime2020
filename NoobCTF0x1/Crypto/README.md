@@ -15,7 +15,7 @@ Author: D3v1LaL
 In CTF competitions the title of the challenge sometimes can be a clue. For example in this challenge, I thought that the word 'Gross' was a play on words from 'Grons' so I concluded it might be 'Gronsfeld Cipher'. The conclusion I got after reading the [pycipher](https://pycipher.readthedocs.io/en/master/\#id16) documentation.
 
 ```
->>> import pyciphet
+>>> import pycipher
 >>>
 >>> msg = pycipher.Gronsfeld([1,2,3,4,5]).decipher('OQWKWPUVMYTIUSSTHHPI')
 >>> msg
