@@ -62,7 +62,7 @@ Author: Cryptonic007
 
 In this challenge, it is almost similar to the 'Frequency' crypto challenge. but this time we have to analyze the frequency, to do that we can use Audacity, change it to spectrogram. [link](https://en.wikipedia.org/wiki/Dual-tone_multi-frequency_signaling)
 
-![image](https://github.com/insomn14/CTFtime2020/NoobCTF0x1/Forensics/Fine%20the%20tone/Screenshot.png "Screenshot.png")
+![image](https://github.com/insomn14/CTFtime2020/blob/master/NoobCTF0x1/Forensics/Fine%20the%20tone/Screenshot.png "Screenshot.png")
 
 From there we can start analyzing each frequency. after you get a number, replace it with the letter at each T9 keyboard emphasis. 
 
