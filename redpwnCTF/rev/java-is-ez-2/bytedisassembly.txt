@@ -1,0 +1,270 @@
+Compiled from "RedpwnCTF2020"
+public class JavaIsEZ2 {
+  static {};
+    Code:
+       0: iconst_2
+       1: anewarray     #18                 // class java/lang/String
+       4: dup
+       5: iconst_0
+       6: ldc           #1                  // String redpwn
+       8: aastore
+       9: dup
+      10: iconst_1
+      11: ldc           #2                  // String ctf2020
+      13: aastore
+      14: putstatic     #19                 // Field a:[Ljava/lang/String;
+      17: iconst_4
+      18: newarray       long
+      20: dup
+      21: iconst_0
+      22: ldc2_w        #20                 // long 8248156489741230770l
+      25: lastore
+      26: dup
+      27: iconst_1
+      28: ldc2_w        #22                 // long -5342668067454976247l
+      31: lastore
+      32: dup
+      33: iconst_2
+      34: ldc2_w        #24                 // long -889275714l
+      37: lastore
+      38: dup
+      39: iconst_3
+      40: ldc2_w        #26                 // long -559038737l
+      43: lastore
+      44: putstatic     #28                 // Field a:[J
+      47: return
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: goto          133
+       3: astore_1
+       4: aload_2
+       5: invokevirtual #31                 // Method java/lang/String.toCharArray:()[C
+       8: astore_2
+       9: iconst_0
+      10: istore_3
+      11: aload_0
+      12: ifnull        190
+      15: iconst_0
+      16: istore        4
+      18: iload         4
+      20: aload_2
+      21: arraylength
+      22: iconst_m1
+      23: ixor
+      24: iconst_2
+      25: iadd
+      26: ineg
+      27: if_icmpeq     46
+      30: aload_2
+      31: monitorenter
+      32: iload         4
+      34: iflt          253
+      37: iload         4
+      39: iconst_1
+      40: iadd
+      41: istore        4
+      43: goto          18
+      46: iconst_0
+      47: istore        4
+      49: iconst_1
+      50: istore        10
+      52: aconst_null
+      53: pop
+      54: iload         10
+      56: ifeq          95
+      59: iload         10
+      61: iconst_1
+      62: isub
+      63: istore        10
+      65: bipush        31
+      67: iload_3
+      68: imul
+      69: aload_2
+      70: iload         4
+      72: caload
+      73: iadd
+      74: istore        3
+      76: aload_2
+      77: monitorexit
+      78: iconst_1
+      79: iload         4
+      81: iadd
+      82: istore        4
+      84: iload         10
+      86: iflt          133
+      89: iconst_1
+      90: istore        10
+      92: goto          54
+      95: ret           1
+      97: astore        8
+      99: iconst_0
+     100: getstatic     #32                 // Field java/lang/System.out:Ljava/io/PrintStream;
+     103: ldc           #3                  // String That is pepega
+     105: invokevirtual #33                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+     108: invokestatic  #34                 // Method java/lang/System.exit:(I)V
+     111: aload_0
+     112: ifnonnull     253
+     115: ret           8
+     117: astore        8
+     119: iconst_0
+     120: getstatic     #32                 // Field java/lang/System.out:Ljava/io/PrintStream;
+     123: ldc           #4                  // String Oh nice, you found my key :O
+     125: invokevirtual #33                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+     128: invokestatic  #34                 // Method java/lang/System.exit:(I)V
+     131: ret           8
+     133: aconst_null
+     134: checkcast     #35                 // class RedpwnCTF2020
+     137: ldc           #5                  // String java.utils.ArrayList
+     139: invokestatic  #36                 // Method java/lang/Class.forName:(Ljava/lang/String;)Ljava/lang/Class;
+     142: invokestatic  #37                 // Method java/util/concurrent/ThreadLocalRandom.current:()Ljava/util/concurrent/ThreadLocalRandom;
+     145: iconst_1
+     146: bipush        28
+     148: invokevirtual #38                 // Method java/util/concurrent/ThreadLocalRandom.nextInt:(II)I
+     151: putstatic     #39                 // Field a:I
+     154: pop2
+     155: aload_0
+     156: aconst_null
+     157: astore_0
+     158: monitorexit
+     159: goto          133
+     162: aconst_null
+     163: athrow
+     164: goto          133
+     167: ifnull        133
+     170: getstatic     #39                 // Field a:I
+     173: aload_0
+     174: swap
+     175: istore        9
+     177: arraylength
+     178: iconst_1
+     179: if_icmpne     484
+     182: iload         9
+     184: ifne          162
+     187: iconst_1
+     188: istore        9
+     190: aload_0
+     191: iconst_0
+     192: aaload
+     193: invokevirtual #40                 // Method java/lang/String.length:()I
+     196: bipush        32
+     198: if_icmpne     484
+     201: iload         9
+     203: ifeq          133
+     206: iconst_0
+     207: istore        9
+     209: new           #41                 // class java/lang/StringBuilder
+     212: dup
+     213: invokespecial #42                 // Method java/lang/StringBuilder."<init>":()V
+     216: ldc           #6                  // String flag{
+     218: invokevirtual #43                 // Method java/lang/StringBuilder.append:(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+     221: aload_0
+     222: iconst_0
+     223: aaload
+     224: invokevirtual #43                 // Method java/lang/StringBuilder.append:(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+     227: ldc           #7                  // String }
+     229: invokevirtual #43                 // Method java/lang/StringBuilder.append:(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+     232: invokevirtual #44                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+     235: astore_2
+     236: jsr           3
+     239: iload_3
+     240: ldc           #8                  // int 1140336659
+     242: if_icmpne     484
+     245: iload         9
+     247: ifne          162
+     250: iconst_1
+     251: istore        9
+     253: iconst_0
+     254: istore        7
+     256: aload_0
+     257: iconst_0
+     258: aaload
+     259: iload         7
+     261: ifne          273
+     264: iconst_0
+     265: bipush        16
+     267: invokevirtual #45                 // Method java/lang/String.substring:(II)Ljava/lang/String;
+     270: goto          278
+     273: bipush        16
+     275: invokevirtual #46                 // Method java/lang/String.substring:(I)Ljava/lang/String;
+     278: bipush        16
+     280: invokestatic  #47                 // Method java/lang/Long.parseLong:(Ljava/lang/String;I)J
+     283: lstore        5
+     285: getstatic     #19                 // Field a:[Ljava/lang/String;
+     288: iload         7
+     290: aaload
+     291: astore_2
+     292: jsr           3
+     295: iload_3
+     296: i2l
+     297: dup2
+     298: bipush        32
+     300: lshl
+     301: lor
+     302: getstatic     #28                 // Field a:[J
+     305: iload         7
+     307: laload
+     308: lxor
+     309: lload         5
+     311: getstatic     #28                 // Field a:[J
+     314: iload         7
+     316: iconst_2
+     317: iadd
+     318: laload
+     319: lmul
+     320: lcmp
+     321: istore_3
+     322: iload         9
+     324: lookupswitch  { // 14
+                     2: 466
+                     3: 182
+                    10: 245
+                    12: 133
+                    16: 460
+                    20: 253
+                    21: 474
+                    29: 452
+                    30: 209
+                    50: 480
+                    54: 190
+                    55: 201
+                    57: 448
+                    66: 162
+               default: 448
+          }
+     448: iload_3
+     449: ifne          484
+     452: iload         9
+     454: ifeq          162
+     457: iconst_0
+     458: istore        9
+     460: iconst_1
+     461: iload         7
+     463: iadd
+     464: istore        7
+     466: iload         9
+     468: ifne          162
+     471: iconst_1
+     472: istore        9
+     474: iconst_2
+     475: iload         7
+     477: if_icmpne     256
+     480: jsr           117
+     483: return
+     484: jsr           97
+     487: return
+    Exception table:
+       from    to  target type
+          53    95    53   Class java/lang/IllegalMonitorStateException
+         133   155   167   any
+         155   159   167   any
+         162   164   167   any
+
+  public static long print(long);
+    Code:
+       0: getstatic     #32                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       3: lload_0
+       4: invokevirtual #51                 // Method java/io/PrintStream.println:(J)V
+       7: lload_0
+       8: lreturn
+}

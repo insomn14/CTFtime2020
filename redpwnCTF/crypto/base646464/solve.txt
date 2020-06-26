@@ -1,0 +1,10 @@
+>>> from base64 import *
+>>> f = open('cipher.txt').read()
+>>> s = ''
+>>> for i in range(25):
+...     s = f
+...     f = b64decode(s)
+... 
+>>> f
+b'flag{l00ks_l1ke_a_l0t_of_64s}'
+
