@@ -1,49 +1,50 @@
 #!/usr/bin/python3
 
-import _thread
-from numba import njit
 from itertools import permutations
-from string import ascii_letters, ascii_lowercase, digits, printable
+from string import printable
 
+xor = lambda x: ''.join([chr(ord(i)^18) for i in x])
 
-xor = lambda x: [i^18 for i in x]
-conv_int = lambda x : [ord(i) for i in x]
-conv_chr = lambda x : ''.join([chr(i) for i in x])
-
-# @njit
-def aneh(a1, a2, a3):
-	gg = []
+def ENCrypt(a1, a2, a3):
 	while a2 != a3:
-		v4 = (a1[a2 - 1] >> 1) + 2 * (a1[a2])
-		gg.append((v4 >> (v4 >> 7)) - 1)
+		v4 = (ord(a1[a2-1]) >> 1) + (ord(a1[a2]) << 1)
+		a1[a2] = chr( (v4 >> (v4 >> 7)) - 1 )
 		a2 += 1
-	return gg
+	return a1
 
-# @njit
-def main(msg, f, s1, s2):
-	for passwd in permutations(strings, f):
-		tmp = conv_chr(aneh(conv_int(passwd), 1, f))
-		print(tmp)
-		if tmp == enc[s1:s2]:
-			print(msg, ''.join(passwd), tmp)
+def find(k, f):
+	found = []
+	for ch in printable:
+		tmp = list(k+ch)
+		tmp = ENCrypt(tmp, 1, len(tmp))
+		if tmp[1] == f:
+			print(f'- possibility : {ch}')
+			found.append(ch)
+	return found		
 
+enc_flag = "4CB\\y}@vxI^{~kFfe}B@et"
+know_key = str(input("Know 1st char : "))
+find_key = str(input("Restore 2nd char: "))
+possibility = find(know_key, find_key)
 
-if __name__ == '__main__':
-	strings = ascii_letters + digits + '_'
-	enc = 'te@B}efFk~{^Ixv@}y\\BC4'
-
-	try:
-		_thread.start_new_thread( main, ('Frist :', 5, 0, 4, ) )
-		_thread.start_new_thread( main, ('Second :', 5, 4, 8, ) )
-		_thread.start_new_thread( main, ('Thrid :', 5, 8, 12, ) )
-		_thread.start_new_thread( main, ('Four :', 5, 12, 16, ) )
-		_thread.start_new_thread( main, ('Five :', 5, 16, 20, ) )
-		# _thread.start_new_thread( main, ('Six :',4, 15, 18, ) )
-		# _thread.start_new_thread( main, ('Seven :',4, 18, 22, ) )
-	except KeyboardInterrupt as err:
-		print(err)
-	except:
-		print ("Error: unable to start thread")
-
-while 1:
-   pass
+for pos in possibility:
+	data = list(know_key + pos)
+	tmp = ''.join(data)
+	while len(data) != len(enc_flag):
+		for ch in printable:
+			tmp = list(tmp+ch)
+			ENCrypt(tmp, 1, len(tmp))
+			if all(enc_flag[i]==j for i,j in enumerate(tmp)):
+				data.append(ch)
+				tmp = ''.join(data)
+				break
+			else:
+				tmp = ''.join(data)
+	print('-'*35)
+	print(f'Result - {pos} : {tmp}')
+	check = ''.join((ENCrypt(list(data),1,len(data)))) == enc_flag
+	print(f"Compare key : {check}")
+	if (check): 
+		print(f"Key found : {xor(tmp)}")
+	else:
+		print("Key not found")
