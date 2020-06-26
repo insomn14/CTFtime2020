@@ -1,0 +1,11 @@
+pwn/zero-the-hero		8 solves / 498 points
+NotDeGhost
+
+One null to rule them all, one null to find them.
+
+One null to bring them all,
+
+nc 2020.redpwnc.tf 31643
+
+Downloads :
+zero-the-hero.tar.gz

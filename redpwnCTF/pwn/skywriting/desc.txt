@@ -1,0 +1,10 @@
+pwn/skywriting			80 solves / 480 points
+NotDeGhost
+
+It's pretty intuitive once you disambiguate some homoglyphs, I don't get why nobody solved it...
+
+nc 2020.redpwnc.tf 31034
+
+Downloads :
+skywriting.tar.gz
+

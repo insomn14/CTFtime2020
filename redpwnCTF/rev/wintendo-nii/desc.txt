@@ -1,0 +1,8 @@
+rev/wintendo-nii 		39 solves / 491 points
+imyxh
+
+Someone gave me this weird knockoff game console and I think it's hiding a flag. I managed to dump the firmware and host it on this server; can you take it from here?
+
+nc 2020.redpwnc.tf 31215
+
+Downloads : nii

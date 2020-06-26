@@ -1,0 +1,9 @@
+pwn/house-of-red		2 solves / 500 points
+NotDeGhost
+
+Red as oloroso, white as smog.
+
+2020.redpwnc.tf:31485
+
+Downloads :
+house-of-red.tar.gz

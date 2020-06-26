@@ -1,0 +1,8 @@
+rev/chezzzboard 		55 solves / 487 points
+dns
+
+I'll also give you the flag if you beat me in chess
+
+nc 2020.redpwnc.tf 31611
+
+Downloads : chezzz

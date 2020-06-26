@@ -1,0 +1,7 @@
+crypto/worst-pw-manager			71 solves / 482 point
+MrSlick
+
+I found this in-progress password manager on a dead company's website. Seems neat.
+
+Downloads :
+worst-pw-manager.zip

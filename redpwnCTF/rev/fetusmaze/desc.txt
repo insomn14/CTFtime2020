@@ -1,0 +1,8 @@
+rev/fetusmaze		34 solves / 492 points
+dns
+
+You can run this one without installing freeglut! Thanks to xusheng for help and inspiration.
+
+nc 2020.redpwnc.tf 31031
+
+Downloads : maze

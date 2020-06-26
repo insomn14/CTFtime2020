@@ -1,0 +1,11 @@
+pwn/the-library 		249 solves / 424 points
+NotDeGhost
+
+There's not a lot of useful functions in the binary itself. I wonder where you can get some...
+
+nc 2020.redpwnc.tf 31350
+
+Downloads : 
+the-library
+the-library.c
+libc.so.6

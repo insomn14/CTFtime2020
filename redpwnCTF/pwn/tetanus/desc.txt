@@ -1,0 +1,11 @@
+pwn/tetanus		34 solves / 492 points
+Poortho
+
+I heard rust is memory safe. Can you prove me wrong?
+
+nc 2020.redpwnc.tf 31069
+
+Downloads :
+tetanus.tar.gz
+tetanus.rs
+

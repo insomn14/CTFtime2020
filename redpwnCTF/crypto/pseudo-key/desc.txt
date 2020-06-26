@@ -1,0 +1,10 @@
+crypto/pseudo-key		448 solves / 341 points
+Boolean
+
+Keys are not always as they seem...
+
+Note: Make sure to wrap the plaintext with flag{} before you submit!
+
+Downloads :
+pseudo-key-output.txt
+pseudo-key.py

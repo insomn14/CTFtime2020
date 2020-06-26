@@ -1,0 +1,9 @@
+crypto/jeopardy			6 solves / 499 points
+Tux
+
+The choice is yours...choose your curve!
+
+nc 2020.redpwnc.tf 31542
+
+Downloads :
+jeopardy.sage

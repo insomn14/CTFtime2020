@@ -1,0 +1,10 @@
+crypto/itsy-bitsy			216 solves / 436 points
+Boolean
+
+The itsy-bitsy spider climbed up the water spout...
+
+nc 2020.redpwnc.tf 31284
+
+Downloads :
+itsy-bitsy.py
+

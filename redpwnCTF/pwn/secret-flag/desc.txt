@@ -1,0 +1,9 @@
+pwn/secret-flag			432 solves / 348 point
+NotDeGhost
+
+There's a super secret flag in printf that allows you to LEAK the data at an address??
+
+nc 2020.redpwnc.tf 31826
+
+Downloads :
+secret-flag

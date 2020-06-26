@@ -1,0 +1,9 @@
+rev/SMarT-solver		98 solves / 475 points
+MrSlick
+
+Find the correct flag. :)
+
+NOTE: All letters in the flag are lowercase
+
+Downloads : SMarT-solver
+

@@ -1,0 +1,10 @@
+crypto/ratification			27 solves / 494 points
+Tux
+
+Proclamation on ratification of redpwnCTF.
+
+nc 2020.redpwnc.tf 31752
+
+Downloads :
+server.py
+

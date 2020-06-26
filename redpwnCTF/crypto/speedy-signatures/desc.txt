@@ -1,0 +1,9 @@
+crypto/speedy-signatures			17 solves / 496 points
+Tux
+
+Guess my number!
+
+nc 2020.redpwnc.tf 31452
+
+Downloads :
+server.py

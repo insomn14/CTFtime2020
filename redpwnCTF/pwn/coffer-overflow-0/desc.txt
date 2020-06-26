@@ -1,0 +1,10 @@
+pwn/coffer-overflow-0		873 solves / 179 points
+NotDeGhost
+
+Can you fill up the coffers? We even managed to find the source for you.
+
+nc 2020.redpwnc.tf 31199
+
+Downloads :
+coffer-overflow-0
+coffer-overflow-0.c

@@ -1,0 +1,8 @@
+crypto/newcrypt		2 solves / 500 points
+Tux
+
+0x100
+
+Downloads :
+chall.py
+output

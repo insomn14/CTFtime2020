@@ -1,0 +1,10 @@
+pwn/four-function-heap			43 solves / 490 points
+NotDeGhost
+
+When ctf writers can't think of interesting problems, there's always four function heap
+
+nc 2020.redpwnc.tf 31774
+
+Downloads :
+four-function-heap.tar.gz
+starter.py

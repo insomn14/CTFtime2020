@@ -1,0 +1,12 @@
+pwn/kevin-higgs			25 solves / 494 points
+arinerron
+
+It's basically Rowhammer, right?
+
+nc 2020.redpwnc.tf 31956
+
+UPDATE: Although the binary claims that no libc is provided, we chose to provide the Dockerfile mid-CTF. You can find the libc version from the Dockerfile.
+
+Downloads :
+Dockerfile
+kevin-higgs

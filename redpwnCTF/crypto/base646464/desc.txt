@@ -1,0 +1,9 @@
+crypto/base646464 		1023 solves / 145 points
+NotDeGhost
+
+Encoding something multiple times makes it exponentially more secure!
+
+Downloads :
+cipher.txt
+generate.js
+

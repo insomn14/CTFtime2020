@@ -1,0 +1,10 @@
+pwn/coffer-overflow-1		580 solves / 282 points
+NotDeGhost
+
+The coffers keep getting stronger! You'll need to use the source, Luke.
+
+nc 2020.redpwnc.tf 31255
+
+Downloads : 
+coffer-overflow-1.c
+coffer-overflow-1
