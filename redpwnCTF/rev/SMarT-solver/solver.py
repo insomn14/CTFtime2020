@@ -3,16 +3,16 @@ from z3 import *
 inp = [BitVec('inp_%d'%i, 8) for i in range(73)]
 s = Solver()
 
-for ch in inp:
-	s.add(ch >= ord('a'))
-	s.add(ch <= ord('}'))
-
 s.add(inp[0] == ord('f'))
 s.add(inp[1] == ord('l'))
 s.add(inp[2] == ord('a'))
 s.add(inp[3] == ord('g'))
 s.add(inp[4] == ord('{'))
 s.add(inp[72] == ord('}'))
+
+for i in range(5, 72):
+    s.add(inp[i] >= ord('a'))
+    s.add(inp[i] <= ord('z'))
 
 s.add(inp[0] < inp[1])
 s.add(inp[0] > inp[2])
