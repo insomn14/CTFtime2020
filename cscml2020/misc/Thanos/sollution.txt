@@ -1,0 +1,1 @@
+wget -r http://ctf.cscml.zenysec.com:20030/.git/
