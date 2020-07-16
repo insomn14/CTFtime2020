@@ -1,0 +1,8 @@
+Adequate Encryption Standard 476 Points
+I wrote my own AES! Can you break it?
+
+hQWYogqLXUO+rePyWkNlBlaAX47/2dCeLFMLrmPKcYRLYZgFuqRC7EtwX4DRtG31XY4az+yOvJJ/pwWR0/J9gg==
+
+
+~qpwoeirut#5057
+adequate_encryption_standard.pySize: 3.11 KBMD5: 374004f0fedea9303a5f58105c42ff41

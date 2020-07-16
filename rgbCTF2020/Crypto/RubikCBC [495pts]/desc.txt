@@ -1,0 +1,8 @@
+RubikCBC 495 Points
+I implemented this really cool Rubiks CBC encryption algorithm and tested it on a document with my flag in it, but my dog ate my hard drive so I couldn't decrypt the file :(
+
+Luckily I backed up the encrypted file. Can you recover my data?
+
+
+~Klanec#3100
+rubiksCBC.zipSize: 27.88 KBMD5: 7d9fbb6f0212b560722bedfa2f6890e8

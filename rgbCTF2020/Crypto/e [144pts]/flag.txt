@@ -1,0 +1,1 @@
+b'rgbCTF{lucky_number_13}'

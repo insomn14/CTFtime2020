@@ -1,0 +1,8 @@
+Occasionally Tested Protocol 219 Points
+But clearly not tested enough... can you get the flag?
+
+nc challenge.rgbsec.xyz 12345
+
+
+~qpwoeirut#5057
+otp.pySize: 0.81 KBMD5: f8c892d9fe87d0cc0aab82b96b256b9a
