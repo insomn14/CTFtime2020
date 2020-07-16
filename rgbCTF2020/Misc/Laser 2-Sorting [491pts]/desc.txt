@@ -1,0 +1,9 @@
+Laser 2 - Sorting 491 Points
+https://github.com/Quintec/LaserLang
+Here's a harder Laser challenge. Given an input stack of numbers, sort them in descending order. nc challenge.rgbsec.xyz 7678
+
+Input: 1 2 7 3 down the rockefeller street
+Output: 7 3 2 1
+
+
+~Quintec#0689

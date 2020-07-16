@@ -1,0 +1,10 @@
+[another witty algo challenge name] 409 Points
+This is pretty simple. You get a list of 5000 by 5000 grid of ones and zeros, and you have to print the number of islands in the grid.
+
+An island is a collections of ones where each one is adjacent to another one in the island. For a cell to be adjacent to another cell, they must share an edge.
+
+Submit the number wrapped in the flag format, like rgbCTF{123}
+
+
+~ BobbaTea#6235, qpwoeirut#5057
+grid.txt

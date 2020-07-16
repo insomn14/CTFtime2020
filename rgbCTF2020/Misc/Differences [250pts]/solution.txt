@@ -1,0 +1,18 @@
+>>> f = open('fix.java', 'rb').read().strip()
+>>> d = open('DifferenceTest.java', 'rb').read().strip()
+>>> 
+>>> len(f) == len(d)
+True
+>>> 
+>>> w, g = '', ''
+>>> 
+>>> for x, y in zip(f, d):
+...     if x != y:
+...             w += chr(y)
+...             g += chr(x)
+... 
+>>> len(w) == len(g)
+True
+>>> sub = lambda x, y : ''.join(chr(ord(i)-ord(j)) for i, j in zip(w,g))
+>>> sub(w,g)
+'rgbCTF{tr1pl3_m34n1ng}'

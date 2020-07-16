@@ -1,0 +1,5 @@
+Ye Old PRNG 484 Points
+I found a really old prng... can you exploit it? nc challenge.rgbsec.xyz 23456
+
+
+~qpwoeirut#5057

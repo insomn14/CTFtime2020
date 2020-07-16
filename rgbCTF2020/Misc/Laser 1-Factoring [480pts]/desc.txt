@@ -1,0 +1,13 @@
+Laser 1 - Factoring 480 Points
+https://github.com/Quintec/LaserLang
+
+Do you like lasers? I like lasers! Here's a warmup: create a program that factors the one number given as input. Output factors on one line in ascending order (or just leave them on the stack, as Laser has implicit output)
+
+Example
+Input: 42
+Output: 1 2 3 6 7 14 21 42
+
+Connect with nc challenge.rgbsec.xyz 52737
+
+
+~Quintec#0689

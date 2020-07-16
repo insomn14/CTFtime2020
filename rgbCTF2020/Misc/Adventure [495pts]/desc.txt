@@ -1,0 +1,6 @@
+Adventure 495 Points
+Making eggs for breakfast can be quite A Tedious Adventure, eating in a Restaurant Is easier
+
+
+~M.R#4930, bAse#0001
+Breakfast.BINSize: 4.00 KBMD5: 0ff60173b07d7b9ca09d8e6e517ee7f1
