@@ -1,0 +1,7 @@
+Advanced Reversing Mechanics 2 461 Points
+More advanced than very very advanced
+0A, FB, F4, 88, DD, 9D, 7D, 5F, 9E, A3, C6, BA, F5, 95, 5D, 88, 3B, E1, 31, 50, C7, FA, F5, 81, 99, C9, 7C, 23, A1, 91, 87, B5, B1, 95, E4,
+
+
+~ungato#3536
+arm_hard.oSize: 1.52 KBMD5: 9bc3711e3bc9bf158af53550bfd6bf3f

@@ -1,0 +1,11 @@
+>>> from Crypto.Util.number import bytes_to_long as btl
+>>> from Crypto.Util.number import long_to_bytes as ltb
+>>> 
+>>> xor = lambda x,y : b''.join(ltb(btl(enc[i*4:i*4+4]) ^ y)[::-1] for i in range(len(x)//4))
+>>> 
+>>> enc = ltb(0x42642a41473e425717696a7c49334216426e2e4d79242e48796e714112297e12426e6f53)
+>>> key = 0x265d1d23
+>>> 
+>>> 
+>>> xor(enc, key)
+b'pr3d1ct4bl3_k3y_n33d5_no_w41t_cab79d'

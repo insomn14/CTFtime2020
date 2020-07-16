@@ -1,0 +1,4 @@
+>>> xor = lambda x : ''.join(chr(ord(i) ^ 2) for i in x)
+>>> 
+>>> xor('glvgprpkqgamfggg')
+'enterprisecodeee'

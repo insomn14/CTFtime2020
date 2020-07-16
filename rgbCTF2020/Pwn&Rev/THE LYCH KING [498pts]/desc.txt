@@ -1,0 +1,7 @@
+THE LYCH KING 498 Points
+and the bad seeds
+
+The binary was changed *ever so slightly* after the cipher text was generated
+
+~KIanec#3100
+LYCH_KING.zipSize: 282.05 KBMD5: 9a09a572fd05374748f527aab1253c9a

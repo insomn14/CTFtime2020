@@ -1,0 +1,6 @@
+Five Fives 476 Points
+java SecureRandom is supposed to be, well, secure, right? nc challenge.rgbsec.xyz 7425
+
+
+~Quintec#0689
+Main.javaSize: 1.98 KBMD5: 0f5e8773cbaf2a9194673ae536650b5d

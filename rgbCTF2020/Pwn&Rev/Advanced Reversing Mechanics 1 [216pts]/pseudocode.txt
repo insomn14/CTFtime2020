@@ -1,0 +1,24 @@
+void sym.main(undefined4 placeholder_0, char **argv)
+{
+    do {
+    // WARNING: Do nothing block with infinite loop
+    } while( true );
+}
+
+
+void sym.encryptFlag(int32_t arg1)
+{
+    char cVar1;
+    
+    // [01] -r-x section size 36 named .text
+    cVar1 = *(char *)arg1;
+    if (cVar1 == '\0') {
+        return;
+    }
+    do {
+        *(char *)arg1 = cVar1 + -1;
+        arg1 = arg1 + 1;
+        cVar1 = *(char *)arg1;
+    } while (cVar1 != '\0');
+    return;
+}

@@ -1,0 +1,6 @@
+soda pop bop 496 Points
+nc challenge.rgbsec.xyz 6969
+
+~chop0#2274
+spbSize: 12.84 KBMD5: 7945df7d64273c698cfcac8deb74917a
+libc-2.27.so
