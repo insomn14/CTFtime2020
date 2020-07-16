@@ -1,0 +1,6 @@
+Pieces 50 PointsSOLVED
+My flag has been divided into pieces :( Can you recover it for me?
+
+
+~Quintec#0689
+Main.javaSize: 0.60 KBMD5: 0ef37e478675de04e468fb1496a5258f

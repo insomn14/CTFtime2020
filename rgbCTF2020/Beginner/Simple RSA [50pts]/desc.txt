@@ -1,0 +1,8 @@
+Simple RSA 50 PointsSOLVED
+Can you find a way to attack this RSA implementation?
+
+
+~qpwoeirut#5057
+simple_rsa.txtSize: 0.12 KBMD5: 890e58f8d143ee2e7f761779500b591f
+simple_rsa.pySize: 0.39 KBMD5: 292f34897f99b5b4178cadca1a725b80
+Hint! What's the simplest attack against RSA?
