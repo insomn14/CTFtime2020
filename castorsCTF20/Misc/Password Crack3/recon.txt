@@ -1,0 +1,85 @@
+
+!echo '^{^F^T^C^s^r^o^t^s^a^c' > left.rule  && echo '$}' > right.rule && ls -la
+
+!hashcat -a0 -m1400 -w4 --force sha256.hash realhuman_phill.txt -r left.rule -r right.rule
+
+hashcat (v5.1.0-1808-g6c0dc749) starting...
+
+You have enabled --force to bypass dangerous warnings and errors!
+This can hide serious problems and should only be done when debugging.
+Do not report hashcat issues encountered when using --force.
+nvmlDeviceGetFanSpeed(): Not Supported
+
+CUDA API (CUDA 10.1)
+====================
+* Device #1: Tesla P100-PCIE-16GB, 16017/16280 MB, 56MCU
+
+OpenCL API (OpenCL 1.2 CUDA 10.1.152) - Platform #1 [NVIDIA Corporation]
+========================================================================
+* Device #2: Tesla P100-PCIE-16GB, skipped
+
+Minimum password length supported by kernel: 0
+Maximum password length supported by kernel: 256
+
+Hashes: 1 digests; 1 unique digests, 1 unique salts
+Bitmaps: 16 bits, 65536 entries, 0x0000ffff mask, 262144 bytes, 5/13 rotates
+Rules: 1
+
+Applicable optimizers:
+* Zero-Byte
+* Early-Skip
+* Not-Salted
+* Not-Iterated
+* Single-Hash
+* Single-Salt
+* Raw-Hash
+
+ATTENTION! Pure (unoptimized) backend kernels selected.
+Using pure kernels enables cracking longer passwords but for the price of drastically reduced performance.
+If you want to switch to optimized backend kernels, append -O to your commandline.
+See the above message to find out about the exact limits.
+
+Watchdog: Temperature abort trigger set to 90c
+
+Host memory required for this attack: 1047 MB
+
+Dictionary cache built:
+* Filename..: realhuman_phill.txt
+* Passwords.: 63941069
+* Bytes.....: 716441107
+* Keyspace..: 63941069
+* Runtime...: 25 secs
+
+Cracking performance lower than expected?
+
+* Append -O to the commandline.
+  This lowers the maximum supported password- and salt-length (typically down to 32).
+
+* Update your backend API runtime / driver the right way:
+  https://hashcat.net/faq/wrongdriver
+
+* Create more work items to make use of your parallelization power:
+  https://hashcat.net/faq/morework
+
+7adebe1e15c37e23ab25c40a317b76547a75ad84bf57b378520fd59b66dd9e12:castorsCTF{theformat!}
+
+Session..........: hashcat
+Status...........: Cracked
+Hash.Name........: SHA2-256
+Hash.Target......: 7adebe1e15c37e23ab25c40a317b76547a75ad84bf57b378520...dd9e12
+Time.Started.....: Sun May 31 00:24:55 2020, (7 secs)
+Time.Estimated...: Sun May 31 00:25:02 2020, (0 secs)
+Guess.Base.......: File (realhuman_phill.txt)
+Guess.Mod........: Rules (left.rule, right.rule)
+Guess.Queue......: 1/1 (100.00%)
+Speed.#1.........:  8894.2 kH/s (27.05ms) @ Accel:1024 Loops:1 Thr:64 Vec:1
+Recovered........: 1/1 (100.00%) Digests
+Progress.........: 58720256/63941069 (91.83%)
+Rejected.........: 0/58720256 (0.00%)
+Restore.Point....: 55050240/63941069 (86.10%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-1 Iteration:0-1
+Candidates.#1....: castorsCTF{spt1602} -> castorsCTF{tummyroof36}
+Hardware.Mon.#1..: Temp: 42c Util: 10% Core:1265MHz Mem: 715MHz Bus:16
+
+Started: Sun May 31 00:24:28 2020
+Stopped: Sun May 31 00:25:03 2020

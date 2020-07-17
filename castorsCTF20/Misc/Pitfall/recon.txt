@@ -1,0 +1,4 @@
+>>> f = int(str(open('data.txt').read().replace('\n', '')),16)
+>>> out(ltb(f))
+
+ mogrify -set comment 'Extraneous bytes removed' output.jpg

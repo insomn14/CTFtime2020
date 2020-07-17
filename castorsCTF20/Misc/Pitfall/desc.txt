@@ -1,0 +1,4 @@
+Pitfall
+464
+Author: hasu
+sylv3on_ was visiting cybercastors island and thought it'd be funny to bury the flag.txt. Can you help us DIG it out?

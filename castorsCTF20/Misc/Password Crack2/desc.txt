@@ -1,0 +1,7 @@
+Password Crack 2
+50
+867c9e11faa64d7a5257a56c415a42725e17aa6d
+
+You might need this: 653589
+
+Wrap the flag in castorsCTF{***}

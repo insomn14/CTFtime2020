@@ -1,0 +1,4 @@
+abcbof
+50
+Author: Lunga
+nc chals20.cybercastors.com 14424

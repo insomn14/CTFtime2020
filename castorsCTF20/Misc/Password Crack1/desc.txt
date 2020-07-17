@@ -1,0 +1,8 @@
+Password Crack 1
+454
+Author: dirbusted
+3c80b091de0981ec64e43262117d618a
+
+Do you rock?
+
+Wrap the flag in castorsCTF{***}

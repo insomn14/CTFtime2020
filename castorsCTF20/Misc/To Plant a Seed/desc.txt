@@ -1,0 +1,4 @@
+To Plant a Seed
+498
+Author: hasu
+Did you know flags grow on trees? Apparently if you water them a specific amount each day the tree will grow into a flag! The tree can only grow up to a byte each day. I planted my seed on Fri 29 May 2020 20:00:00 GMT. The growth pattern is determined by the day-time the seed is planted. Just mix the amount of water in the list with the tree for 6 weeks and watch it grow!
