@@ -1,0 +1,21 @@
+>>> from string import printable 
+>>> 
+>>> enc = [0x64, 0x35, 0x68, 0x35, 0x64, 0x37, 0x33, 0x7a, 0x38, 0x6b, 0x33, 0x37, 0x6b, 0x72, 0x67, 0x7a]
+>>> 
+>>> def sol(x):
+...     get = ord(x)+2
+...     
+...     if get > 96 and get <= 122:
+...             get = (get - 87) % 26 + 97
+...     return get
+... 
+>>> dec = ''
+>>> while len(dec) <= len(enc):
+...     for ch in printable:
+...             if sol(ch) == enc[len(dec)]:
+...                     dec += ch
+... 
+>>> dec
+'r3v3r51n6_15_fun'
+>>> 
+

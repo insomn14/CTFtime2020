@@ -1,0 +1,9 @@
+>>> from base64 import b64decode as b64d
+>>> key = 'promortyusvatofacidpromortyusvato'
+>>> res = 'ExMcGQAABzohNQ0TRQwtPidYAS8gXg4kAkcYISwOUQYS'
+>>>
+>>> xor = lambda x,y: chr(ord(x)^y)
+>>> dec = ''.join([xor(x,y) for x,y in zip(key,b64d(res))])
+>>> dec
+'castorsCTF{r1cK_D1e_R1cKp3aT_x0r}'
+

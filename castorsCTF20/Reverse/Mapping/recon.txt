@@ -1,0 +1,5 @@
+FLAG : eHpzdG9yc1hXQXtpYl80cjFuMmgxNDY1bl80MXloMF82Ml95MDQ0MHJfNGQxbl9iNXVyMn0=
+	 : xzstorsXWA{ib_4r1n2h1465n_41yh0_62_y0440r_4d1n_b5ur2}
+
+INPUT : castorsCTF{abcdefghijklmnopqrstuvwxyz01234567890_ABC}
+	  : xzstorsXWA{zyxjklmdefghinopqrstuvwcba56701234895_ZYX}

@@ -1,0 +1,7 @@
+>>> enc = "gh}w_{aPDSmk$ch&r+Ah-&F|\x14z\x11P\x15\x10\x1dR\x1e"
+>>> 
+>>> decrypt = lambda x,y: chr((ord(x)+2)^y+10)
+>>> 
+>>> dec = ''.join([decrypt(ch,i) for i, ch in enumerate(enc)])
+>>> dec
+'castorsCTF{x0rr1n6_w17h_4_7w157}\n'

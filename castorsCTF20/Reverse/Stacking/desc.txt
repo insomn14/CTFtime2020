@@ -1,0 +1,4 @@
+Stacking
+50
+Author: Krekel
+Strings can live in different sections of the memory.
