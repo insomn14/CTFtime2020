@@ -1,4 +1,0 @@
-Bagel Bytes
-460
-Author: hasu
-nc chals20.cybercastors.com 14420

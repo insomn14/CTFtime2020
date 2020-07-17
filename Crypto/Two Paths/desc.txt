@@ -1,4 +1,0 @@
-Two Paths
-456
-Author: Forward787
-The flag is somewhere in these woods, but which path should you take?

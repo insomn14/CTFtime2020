@@ -1,4 +1,0 @@
-One Trick Pony
-258
-Author: hasu
-nc chals20.cybercastors.com 14422

@@ -1,6 +1,0 @@
-Magic School Bus
-382
-Author: hasu
-nc chals20.cybercastors.com 14421
-
-Flag is slightly out of format. Add underscores and submit uppercase
