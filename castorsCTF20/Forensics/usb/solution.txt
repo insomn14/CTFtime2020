@@ -1,0 +1,6 @@
+1 .entry to wireshark : ((usb.transfer_type == 0x01) && (frame.len == 72)) && !(usb.capdata == 00:00:00:00:00:00:00:00)
+
+2. export as plantext or csv
+
+3. grab hexvalue & execute python script
+

@@ -1,0 +1,10 @@
+>>> from Crypto.Util.number import long_to_bytes as ltb
+>>>
+>>> def outs(x):
+...     with open('output.jpg', 'wb') as f:
+...             f.write(x)
+...             f.close()
+...
+>>> data = open('data', 'r').read().replace('\n', '')
+>>> i = int(str(data),16)
+>>> outs(ltb(i))
