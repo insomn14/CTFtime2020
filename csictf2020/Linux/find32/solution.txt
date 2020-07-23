@@ -1,0 +1,36 @@
+user : user1
+pass : find32
+
+connect to ssh server and then find string that contain flag format.
+```
+$ grep -iR csictf{.*}
+
+MITS1KT3: csictf{not_the_flag}{user2:AAE976A5232713355D58584CFE5A5}
+```
+user : user2
+pass : AAE976A5232713355D58584CFE5A5 
+
+let's move on to the next level, using the credentials that we found before.
+```
+$ scp -P 30630 user2@chall.csivit.com:/user2/* .
+
+$ ls 
+adgsfdgasf.d  fadf.x  janfjdkn.txt  notflag.txt  sadsas.tx
+
+$ wc * | awk '{print $1 " " $4}'
+86771 adgsfdgasf.d
+86771 fadf.x
+86771 janfjdkn.txt
+86771 notflag.txt
+86772 sadsas.tx
+433856 total
+```
+As we can see, only `sadsas.tx` that have 86772 lines, let's compare that file with the other file.
+In my case i'll compare `sadsas.tx` with `notflag.txt`.
+```
+$ diff sadsas.tx notflag.txt 
+42392d42391
+< th15_15_unu5u41
+```
+
+FLAG : `csictf{th15_15_unu5u41}`

