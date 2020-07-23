@@ -1,0 +1,6 @@
+>>> p = open('panda.jpg','rb').read()
+>>> p1 = open('panda1.jpg','rb').read()
+>>> 
+>>> ''.join(j for i,j in zip(p,p1) if i!=j)
+'csictf{kung_fu_p4nd4}'
+
