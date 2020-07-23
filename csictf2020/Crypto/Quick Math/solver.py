@@ -16,5 +16,4 @@ tC = c3 * (N1*N2) * gmpy.invert(N1*N2, N3)
 c = (tA + tB + tC) % (N1*N2*N3)
 
 m = gmpy.root(c,e)[0]
-print(ltb(m))
-	
+print(str(m).decode('hex'))	
