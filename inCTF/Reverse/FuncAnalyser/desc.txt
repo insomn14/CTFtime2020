@@ -1,0 +1,15 @@
+FuncAnalyser
+1000
+Let's see how good you are with C++ and C.
+
+If you get the flag locally - send your solution to nc 34.70.233.147 7478
+
+(Note - compiled with llvm10 and clang10)
+
+Author: R3x
+
+Hint:
+- The Shared Object file given is an LLVM analysis pass that can be used along with opt from the llvm toolset to perform static analysis on bitcode files.
+- You can download opt binaries for ubuntu 16.04 and 18.04 here: https://bashupload.com/L300b/opt_16.04.tar https://bashupload.com/mQ4KA/opt_18.04.tar
+
+how the library is run on the server: opt -f -load ./AO1tt.so -getflag < your_input_decoded > /dev/null

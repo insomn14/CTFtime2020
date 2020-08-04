@@ -1,0 +1,7 @@
+ArchRide
+964
+I have a long one planned. Buckle up! Limit your character check to the printable range please :)
+
+Authors: 4lex1, Mr_UnKnOwN
+
+Hint : Hint for ArchRide There may be multiple solutions per level. Limit your solutions to valid base64 (a-zA-Z0-9/+). You can check for corruption to find the correct input for a level!

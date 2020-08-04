@@ -1,0 +1,13 @@
+LOGarithm
+100
+Challenge description
+
+Our company detected a big data breach. We believe our manager Mike's system was surely compromised. As per Mike's statement, He was sure that he was talking about some very confidential stuff with another employee at the time of this breach.
+
+Our team was quick to collect both the memory dump and network traffic capture from the system. There is a speculation that the adversary might've extracted the confidential data quite "securely". Can you figure out what was Mike sending?
+
+Challenge file: Google Cloud Storage -> https://storage.googleapis.com/c3189eee073c09f0e56b550d4f14c51f_log/Evidence.7z
+
+MD5 Hash: 938f18849093bc23ea69f5aae3aef174 - Evidence.7z
+
+Author: stuxn3t

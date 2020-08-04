@@ -1,0 +1,11 @@
+Lookout Foxy
+627
+Challenge Description
+
+Our sniper was about to pin down a terrorist, but a sudden bomb blast destroyed all the physical evidence in the room including the suspect himself. Officers found that he has a laptop and we believe it was active & running when the blast happened. Though most of the laptop was destroyed, our forensics team managed to extract the disk dump from the machine. We have to analyze it and retrieve the secret information present in his system. Can you help us in finding what's there in his system? Our latest intelligence reports say that the terrorists used a genuine, old chat client to communicate among themselves.
+
+Challenge file: Google Cloud Storage -> https://storage.googleapis.com/9e793f54a89142abdd9464f16bc12ef1_lookout/Lookout%20Foxy%20final.E01
+
+MD5 Hash: 562d5fa15951b8a96797b85296a7de1c - LookoutFoxy.E01
+
+Author: g4rud4

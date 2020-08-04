@@ -1,0 +1,11 @@
+Pwncry
+964
+Description Sail through Hade's abode with your double-edged sword!
+
+Connect To - nc 35.245.143.0 1337
+
+md5sum
+
+chall - 0dcd4771a18ea316ee1133c33d72e72a loader - a90fd68020f934cb150ed563cc2c95e2 libc - fb1692c79359ae96029e590c23872ed5 libcrypto.so.1.0.0 - 31a1a310d23afd317dec2a61cd90dedd
+
+Authors - rudy3rudite and b3y0nder

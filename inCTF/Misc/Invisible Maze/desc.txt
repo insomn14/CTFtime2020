@@ -1,0 +1,8 @@
+Invisible Maze
+1000
+reversing
+Challenge description
+
+Move the flag in just the right ways or just hack the game!
+
+Author: officialcjunior

@@ -1,0 +1,7 @@
+EaCy
+972
+Applied Crypto, or something like that ...
+
+nc 34.74.30.191 3333
+
+Author: s0rc3r3r

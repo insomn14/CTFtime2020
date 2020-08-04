@@ -1,0 +1,9 @@
+2^gubed
+1000
+A True Reverse Engineer can only solve this -
+
+nc 34.70.233.147 1337
+
+(Note: The file that you submit to the server will be filtered for syscalls - you can't use any of the (open. read, write, connect) syscalls on the server - this will cause your binary to segfault)
+
+Author: R3x, Ayushi

@@ -1,0 +1,5 @@
+jazz
+979
+"Advanced Super Secure Cipher" - Rust Go With It!
+
+Author k4iz3n

@@ -1,0 +1,19 @@
+Investigation
+100
+Challenge description
+
+We have found that some of the systems in our company have been compromised. We need your help to answer a few questions that our IR team wants answers for.
+
+When did Adam last use the Windows calculator?
+
+Answer should be in the format DD-MM-YYYY_HH:MM:SS. Timestamp in UTC.
+How many times did Adam use Google Chrome in this system?
+
+Answer should be the number.
+Note: Wrap the answers around inctf{}. Sample flag: inctf{01-02-2019_21:04:59_200}
+
+Challenge file: Google Cloud Storage -> https://storage.googleapis.com/67e8471b884cf3b1cc3f123deaf75e6f_invest/Investigation.7z
+
+MD5 Hash: 49912de3c636caa89260b390ac66eb6d - Investigation.7z
+
+Author: stuxn3t

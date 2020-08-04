@@ -1,0 +1,20 @@
+Investigation Continues
+872
+Challenge description
+
+There are still some more questions that have come up. Provide the answers for them too.
+
+When was the last time Adam entered an incorrect password to login?
+
+Answer should be in the format DD-MM-YYYY_HH:MM:SS. Timestamp in UTC.
+When was the file 1.jpg Opened?
+
+Answer should be in the format DD-MM-YYYY_HH:MM:SS. Timestamp in UTC.
+When did Adam last use the taskbar to launch Chrome?
+
+Answer should be in the format DD-MM-YYYY_HH:MM:SS. Timestamp in UTC.
+Note-1: The challenge file is the same as that of the challenge Investigation.
+
+Note-2: Wrap the answers around inctf{}. Sample flag: inctf{01-02-2019_21:04:59_05-08-2016_13:04:45_03-05-2018_12:54:35}
+
+Author: stuxn3t

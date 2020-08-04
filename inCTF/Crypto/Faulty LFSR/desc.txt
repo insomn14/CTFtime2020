@@ -1,0 +1,7 @@
+Faulty LFSR
+972
+My friend who claims to be someone who is good in statistics, had my new encryption scheme analysed. He claims that there are some problems with my encryption scheme and challenged me to find it out myself. I tried checking the seeds and found that two of them were in the inital parts of their range. But that couldnt be the problem right? Can you try to prove that this scheme is faulty by trying to find out the flag?
+
+Author: ph03n1x
+
+Status: Made with :love: and python2.7

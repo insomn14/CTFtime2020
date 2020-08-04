@@ -1,0 +1,13 @@
+speedy
+1000
+My Safari was slow so I made it fast! I heard that speed thrills but kills ? Well, prove it!
+
+challenge files - https://storage.googleapis.com/d19097c6333a1fff2c219504dddb334f_speed/speedy_handout.zip
+
+Note: challenge is running on Ubuntu 18.04
+
+Update: The server configration is added if you need it. Update: Please use 23c3f26fb8b9a488e97a2a88c2f0933904a08409 as the webkit commit if you want to build the file. Ignore the commit hash in the readme. Sorry for the inconvenience.
+
+nc speedy.pwn.inctf.in 8001
+
+Author: sherl0ck

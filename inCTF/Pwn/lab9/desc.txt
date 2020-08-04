@@ -1,0 +1,9 @@
+lab9
+989
+Your secret is safe in ring0 -
+
+nc 104.154.136.103 1337
+
+Author
+
+night_f0x

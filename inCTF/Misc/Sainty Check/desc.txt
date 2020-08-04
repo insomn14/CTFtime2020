@@ -1,0 +1,9 @@
+Sanity Check
+100
+Welcome to InCTFi 2020! Hope you enjoy the CTF.
+
+Grab the flag from our IRC on freenode: #bi0s-ctf.
+
+Happy hacking!
+
+Made with coffee & love by Team bi0s

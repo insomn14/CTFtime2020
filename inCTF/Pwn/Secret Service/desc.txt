@@ -1,0 +1,15 @@
+Secret Service
+996
+Description
+
+There's a secret service hidden within the depths of the binary. Get into the service , use/pwn it as per your needs and dont forget to leave a feedback :P.
+
+Note - The flag is eagerly wating to be read from the flag file , flag.
+
+Connect To - nc 35.245.143.0 7777
+
+md5sum
+
+chall - 075ebf5da05541b7236f6a2735d294b1 libc - 10fdeb77eea525914332769e9cd912ae loader - 6edf309082f48bd688b0ea5e6cacd6d6 libseccomp.so.2 - adbed3f5c09947ae379cf0045927fc54
+
+Author - Cyb0rG

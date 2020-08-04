@@ -1,0 +1,9 @@
+NtBabyHeap
+1000
+Some Windows exploitation for you
+
+nc 51.144.80.246 13337
+
+Running on Windows 10 Pro 20H1 Version 10.0.19041 Build 19041
+
+Author: slashb4sh
