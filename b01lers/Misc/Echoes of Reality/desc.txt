@@ -1,0 +1,5 @@
+Echoes of Reality 100 PointsSOLVED
+Something's wrong with this mirror, it's making strange sounds... can you figure out what it's saying?
+
+The md5sum of the flag is: F591C387E3BB9C04375C316F1B6A2548.
+echoesofreality.wavSize: 516.84 KBMD5: 1d7858447b42e982f118e0087988579f

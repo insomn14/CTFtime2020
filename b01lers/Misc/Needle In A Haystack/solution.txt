@@ -1,0 +1,3 @@
+➜  NeedleInAHayStack grep -iR flag
+haystack269.txt:Fo1gQaT1DgTzK3BO+xkuAIRHKflag{y0u_f0unD_Th3_n33d1e!}
+
