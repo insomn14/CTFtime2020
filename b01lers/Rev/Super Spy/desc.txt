@@ -1,0 +1,17 @@
+Super Spy 300 PointsSOLVED
+Your parents were here before you. They are gone.
+
+Get the coin. This is your mission.
+
+Good luck, agent.
+
+You will receive three pieces of special agent gear for this mission.
+
+1. A hacking tool - https://github.com/SiD3W4y/GhidraGBA
+2. The user manual - https://www.coranac.com/tonc/text/
+3. A training simulator - http://www.romhacking.net/utilities/297/
+
+A BIOS is not required to solve this the challenge, but you can see more details about using it here: https://higan.readthedocs.io/en/stable/install/general/.
+
+Author: @novafacing
+super-spy.gbaSize: 75.89 KBMD5: 8368b11235a30fb6ebd9cb86c76bfc3d

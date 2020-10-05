@@ -1,0 +1,6 @@
+#decompress
+7z x -oLAVA-FIGHT lava-fight.love
+
+# compress data
+$ zip -9 -r LAVA-FIGHT.love .
+$ love LAVA-FIGHT.love

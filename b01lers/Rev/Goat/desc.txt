@@ -1,0 +1,3 @@
+Goat 200 PointsSOLVED
+You've done Reverse Engineering in C... Can you do it in Java?
+CrackMe.classSize: 1.96 KBMD5: f28f5016afb41928d976a91974223982

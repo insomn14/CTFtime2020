@@ -1,0 +1,5 @@
+Mega Race 100 PointsSOLVED
+There are 5 levels. This is level 2. Are you ready? Start your engines!
+
+Author: @novafacing
+mega-raceSize: 7.39 KBMD5: 5d74802ba8a2dc3c928d3abf80420542
