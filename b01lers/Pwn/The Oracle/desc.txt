@@ -1,0 +1,5 @@
+The Oracle 100 Points26 minutes, 17 seconds remaining
+Would you still have broken it if I hadn't said anything?
+nc chal.ctf.b01lers.com 1015
+theoracleSize: 16.54 KBMD5: ef25f23d8a2218004732f71bfbfa1267
+theoracle.cSize: 0.32 KBMD5: 888b851225717833a890745f158e973f

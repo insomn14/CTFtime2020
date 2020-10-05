@@ -1,0 +1,5 @@
+Free Your Mind 200 Points24 minutes, 36 seconds remaining
+Next up, hack the matrix again, but this time, insert your own code.
+nc chal.ctf.b01lers.com 1007
+shellcodingSize: 16.52 KBMD5: 5f75e03fd4f2bb8f5d11ce18ceae2a1d
+shellcoding.cSize: 0.35 KBMD5: 6324f4025b64bf06932175233b315bdd

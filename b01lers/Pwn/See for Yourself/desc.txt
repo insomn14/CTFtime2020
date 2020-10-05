@@ -1,0 +1,5 @@
+See for Yourself 200 Points23 minutes, 41 seconds remaining
+The matrix requires a more advanced trick this time. Hack it.
+nc chal.ctf.b01lers.com 1008
+simpleropSize: 19.21 KBMD5: af22071fcb7a6df9175940946a6d45e5
+simplerop.cSize: 0.33 KBMD5: b12116e469429136282d70207ca63bf5

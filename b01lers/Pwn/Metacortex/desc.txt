@@ -1,0 +1,4 @@
+Metacortex 100 Points26 minutes, 53 seconds remaining
+This company is one of the top software companies in the world, because every single employee knows that they are part of a whole. Thus, if an employee has a problem, the company has a problem.
+nc chal.ctf.b01lers.com 1014
+metacortexSize: 16.64 KBMD5: 72ec7dee20d0b191fe14dc2480bd3f43

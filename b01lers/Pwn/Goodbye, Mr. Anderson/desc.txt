@@ -1,0 +1,6 @@
+Goodbye, Mr. Anderson 300 Points23 minutes, 2 seconds remaining
+Do it again Neo. Cheat death.
+nc chal.ctf.b01lers.com 1009
+leaksSize: 16.75 KBMD5: c85e4a348b2a07ba8e6484d69956d968
+leaks.cSize: 0.84 KBMD5: ecb35682f9857d2b9ca8b2ae235d8b82
+libc.zipSize: 843.18 KBMD5: 5acc140ca0655fb923f0b592b85bede1
