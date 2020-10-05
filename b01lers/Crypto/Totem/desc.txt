@@ -1,0 +1,4 @@
+Totem 100 PointsSOLVED
+Is this a dream or not? Use your totem to find out.
+
+totem-template.py: 0.88 KBMD5: 64570ca140218e167da3995184bc89a4
