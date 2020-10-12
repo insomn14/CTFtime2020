@@ -1,7 +1,5 @@
 >>> data = b'\x11\x1b\x16\x10\x0c\x14G\x19\x10\x05C\x03\x02\x1bC\x03FG\x19\x0d(\x05D(\x03\x1fD(0".V'
 >>> 
->>> len(data)
-37
 >>> 
 >>> ''.join(chr(i^0x77) for i in data)
 'flag{c0ngr4tul4t10nz_y0u_ar3_th3_GUY!'
