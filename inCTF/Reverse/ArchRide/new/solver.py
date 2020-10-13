@@ -195,17 +195,14 @@ try:
 				arr1, arr2 = array2xor(exe, 0x03020, 0x03060)
 				key = bin_solving(arr1, arr2)
 			elif typ == arc[2]:
-				cmd = 'sudo ln -sf /usr/aarch64-linux-gnu/lib/libc.so.6  /lib/libc.so.6'
 				os.system(cmd)
 				arr1, arr2 = array2xor(exe, 0x012010, 0x012048)
 				key = aarch64_solving(arr1, arr2)
 			elif typ == arc[3]:
-				cmd = 'sudo ln -sf /usr/arm-linux-gnueabihf/lib/libc.so.6  /lib/libc.so.6'
 				os.system(cmd)
 				arr1, arr2 = array2xor(exe, 0x011008, 0x011040)
 				key = arm_solving(arr1, arr2)
 			elif typ == arc[4]:
-				cmd = 'sudo ln -sf /usr/powerpc64-linux-gnu/lib/libc.so.6  /lib/libc.so.6'
 				os.system(cmd)
 				arr1, arr2 = array2xor(exe, 0x010020130, 0x010020168, 4)
 				key = powerpc64_solving(arr1, arr2)
