@@ -1,7 +1,7 @@
 define PrintFlag
 
 set $i=0
-set $addr=0x00007ffcd0970600
+set $addr=$rsp+16
 
 while ($i < 27)
     printf "%s", $addr
