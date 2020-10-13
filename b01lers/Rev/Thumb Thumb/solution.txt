@@ -32,3 +32,4 @@
 >>> flag = ''
 >>> flag = ''.join(mapping[i] for i in sorted(mapping.keys()))
 >>> flag
+'flag{s3nd_0ur_b3st_thumb5}'
