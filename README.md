@@ -5,8 +5,14 @@
 ### [BSidesSF2020 CTF](/BSidesSF_2020_CTF/)
 - [Reverse](/BSidesSF_2020_CTF/Reverse/)
 
+## [ISITDTU](/ISITDTU/)
+- [Cryptography](/ISITDTU/Cryptography/)
+- [Misc](/ISITDTU/Misc/)
+- [Pwn](/ISITDTU/Pwn/)
+- [Reversing](/ISITDTU/Reversing/)
+
 ### [NeverLANCTF 2020](/NeverLAN-CTF_2020/)
-- [Chicken little](/NeverLAN-CTF_2020/Chicken%20little/)
+- [Chicken little](/NeverLAN-CTF_2020/Chiken%20little/)
 - [Crypto](/NeverLAN-CTF_2020/Crypto/)
 - [Forensic](/NeverLAN-CTF_2020/Forensic/)
 - [PCAP](/NeverLAN-CTF_2020/PCAP/)
@@ -56,7 +62,7 @@
 
 ### [csictf2020](/csictf2020/)
 - [Crypto](/csictf2020/Crypto/)
-- [Forensics](/csictf2020/Forensics/)
+- [Forensic](/csictf2020/Forensic/)
 - [Linux](/csictf2020/Linux/)
 - [Pwn](/csictf2020/Pwn)
 - [Reversing](/csictf2020/Reversing/)
@@ -73,7 +79,7 @@
 - [Crypto](/redpwnCTF/crypto/)
 - [Misc](/redpwnCTF/misc/)
 - [Pwn](/redpwnCTF/pwn/)
-- [Rev](/redpwnCTF/Rev/)
+- [Rev](/redpwnCTF/rev/)
 
 ### [rgbCTF2020](/rgbCTF2020/)
 - [Beginner](/rgbCTF2020/Beginner/)
