@@ -218,16 +218,10 @@ try:
 			elif typ == arc[1]:
 				key = bin_x86(exe)
 			elif typ == arc[2]:
-				cmd = 'sudo ln -sf /usr/aarch64-linux-gnu/lib/libc.so.6  /lib/libc.so.6'
-				os.system(cmd)
 				key = arm_x64(exe)
 			elif typ == arc[3]:
-				cmd = 'sudo ln -sf /usr/arm-linux-gnueabihf/lib/libc.so.6  /lib/libc.so.6'
-				os.system(cmd)
 				key = arm_arm(exe)
 			elif typ == arc[4]:
-				cmd = 'sudo ln -sf /usr/powerpc64-linux-gnu/lib/libc.so.6  /lib/libc.so.6'
-				os.system(cmd)
 				key = powerpc64(exe)
 			execute(binfile, key)
 		else:
