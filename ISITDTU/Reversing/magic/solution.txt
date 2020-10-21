@@ -1,0 +1,10 @@
+# 1. input 'm4gic!'
+# 2. change EIP to WIERD address
+# 3. change bytes of EAX to [ebp+input]
+
+>>> key = b'm4gic!_ISITDTUCTF_m4gic!'
+>>> enc = [int(i,16) for i in '2A 04 57 0D 09 11 3D 16 24 7A 38 28 37 65 2E 67 19 2D 5E 42 54 1B 10 12 32 46 54 5D 0F 7E 28 79 21 25 30 65'.split()]
+>>>
+>>> print(''.join(chr(j^key[i%len(key)]) for i, j in enumerate(enc)))
+G00dj0b_w3llc0m3_r3v3rs3_r34l_w0rld!
+

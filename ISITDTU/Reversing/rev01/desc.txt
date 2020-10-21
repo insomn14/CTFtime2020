@@ -1,0 +1,3 @@
+rev01
+1000
+Classic guess the algorithm rev chall, what hint do you want then?
