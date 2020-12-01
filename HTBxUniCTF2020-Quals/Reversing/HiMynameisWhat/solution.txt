@@ -1,0 +1,4 @@
+change uid -> '~#L-:4;f'
+
+than debugging to avoid exit until decrypt flag
+FLAG : 'HTB{L00k1ng_f0r_4_w31rd_n4m3}'

@@ -1,0 +1,3 @@
+CHALLENGE INFO
+Malception
+Attackers have infiltrated our domain and poisoned DNS records to infect users with a ransomware. We weren't able to retrieve any artifacts, but we have a packet capture you could use.

@@ -1,0 +1,3 @@
+CHALLENGE INFO
+ircware
+During a routine check on our servers we found this suspicious binary, but when analyzing it we couldn't get it to do anything. We assume it's dead malware but maybe something interesting can still be extracted from it?
