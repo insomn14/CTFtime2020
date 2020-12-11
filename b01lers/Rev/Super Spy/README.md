@@ -25,7 +25,7 @@ MD5: 8368b11235a30fb6ebd9cb86c76bfc3d
 ```
 
 ## Problem
-Pada tantangan ini kita diberikan file sebuah `Gameboy Advance` [*super-spy.gba*](super-spy.gba). 
+`Gameboy Advance` [*super-spy.gba*](super-spy.gba). 
 
 
 
@@ -34,5 +34,5 @@ Pada tantangan ini kita diberikan file sebuah `Gameboy Advance` [*super-spy.gba*
 ```
 ```
 
-FLAG: `flag`
+FLAG: `flag{p01nts_f0r_im4g1n4t1on}`
 </div>
